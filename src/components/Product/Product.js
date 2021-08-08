@@ -1,12 +1,14 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useData } from '../../context/DataContext';
 import './Product.css';
 
 export default function Product({ product }) {
    const { state, dispatch } = useData();
    const { cart } = state;
+   const navigate = useNavigate();
 
-   const checkCart = () => cart.filter((item) => item.id === product.id);
+   const checkCart = cart.filter((item) => item.id === product.id);
 
    const handleAddToCart = (product) => {
       if (checkCart.length === 0) {
@@ -38,11 +40,19 @@ export default function Product({ product }) {
                   <p className='new-price'>₹{product.price}</p>
                </div>
                <div className='product-cart-button'>
-                  <button
-                     onClick={() => handleAddToCart(product)}
-                     className='btn btn-primary product-cart-btn'>
-                     Add to Cart
-                  </button>
+                  {checkCart.length === 0 ? (
+                     <button
+                        onClick={() => handleAddToCart(product)}
+                        className='btn btn-primary product-cart-btn'>
+                        Add to cart
+                     </button>
+                  ) : (
+                     <button
+                        onClick={() => navigate('/cart')}
+                        className='btn btn-primary product-cart-btn'>
+                        Go to cart
+                     </button>
+                  )}
                </div>
             </div>
          </div>
