@@ -10,6 +10,7 @@ export const products = [
       ratings: 4,
       gender: 'Men',
       sizes: ['S', 'M', 'XL'],
+      quantity: 1,
    },
    {
       id: nanoid(),
@@ -20,6 +21,7 @@ export const products = [
       ratings: 1,
       gender: 'Men',
       sizes: ['S'],
+      quantity: 1,
    },
    {
       id: nanoid(),
@@ -30,6 +32,7 @@ export const products = [
       ratings: 1,
       gender: 'Men',
       sizes: ['S', 'LG', 'XL'],
+      quantity: 1,
    },
    {
       id: nanoid(),
@@ -40,6 +43,7 @@ export const products = [
       ratings: 1,
       gender: 'Men',
       sizes: ['S', 'LG'],
+      quantity: 1,
    },
    {
       id: nanoid(),
@@ -50,6 +54,7 @@ export const products = [
       ratings: 4,
       gender: 'Women',
       sizes: ['S', 'LG'],
+      quantity: 1,
    },
    {
       id: nanoid(),
@@ -60,6 +65,7 @@ export const products = [
       ratings: 3,
       gender: 'Women',
       sizes: ['S', 'LG', 'M'],
+      quantity: 1,
    },
    {
       id: nanoid(),
@@ -70,6 +76,7 @@ export const products = [
       ratings: 2,
       gender: 'Kids',
       sizes: ['S', 'LG'],
+      quantity: 1,
    },
    {
       id: nanoid(),
@@ -80,5 +87,6 @@ export const products = [
       ratings: 2,
       gender: 'Kids',
       sizes: ['M'],
+      quantity: 1,
    },
 ];

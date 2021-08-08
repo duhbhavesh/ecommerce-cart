@@ -10,7 +10,9 @@ export default function Product({ product }) {
 
    const handleAddToCart = (product) => {
       if (checkCart.length === 0) {
-         return dispatch({ type: 'ADD_TO_CART', payload: product });
+         return dispatch({ type: 'ADD_CART_ITEM', payload: product });
+      } else {
+         return dispatch({ type: 'INC_QUANTITY', payload: product });
       }
    };
 

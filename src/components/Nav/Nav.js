@@ -19,6 +19,11 @@ export default function Nav() {
 
             <ul className='nav-items'>
                <li className='nav-item navbar-link'>
+                  <Link to='/wishlist' className='nav-item-link'>
+                     <i className='fas fa-heart'></i>
+                  </Link>
+               </li>
+               <li className='nav-item navbar-link'>
                   <Link to='/cart' className='nav-item-link'>
                      <i className='fas fa-shopping-cart'></i>
                   </Link>

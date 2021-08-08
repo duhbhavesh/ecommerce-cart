@@ -7,6 +7,7 @@ export const DataContext = createContext();
 export const initialState = {
    products: products,
    cart: [],
+   wishlist: [],
 };
 
 export const DataProvider = ({ children }) => {

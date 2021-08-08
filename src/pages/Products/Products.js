@@ -4,7 +4,7 @@ import { useData } from '../../context/DataContext';
 
 import './Products.css';
 
-export default function ProductsListing() {
+export default function Products() {
    const {
       state: { products },
    } = useData();
