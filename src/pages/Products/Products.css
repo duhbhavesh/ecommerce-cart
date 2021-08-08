@@ -1,0 +1,22 @@
+.wrapper {
+   display: flex;
+   position: relative;
+   max-width: 1400px;
+   margin: 0 auto;
+   justify-content: space-between;
+}
+
+.wrapper-products {
+   padding: 1rem;
+   width: 90%;
+   margin: 0 auto;
+}
+
+.wrapper-sidebar {
+   width: 25%;
+}
+
+.row {
+   flex-direction: row;
+   flex-wrap: wrap;
+}

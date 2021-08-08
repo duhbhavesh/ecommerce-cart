@@ -1,0 +1,33 @@
+.card {
+   width: 24%;
+   margin-top: 0;
+   background-color: #fff;
+   border: 1px solid #d3d7e1;
+   border-radius: 0.4rem;
+   margin: 0 auto;
+   margin-top: 2rem;
+   min-height: 315px;
+}
+
+.product-card {
+   height: 50%;
+}
+
+.product-details {
+   display: block;
+   text-align: left;
+}
+
+.product-heading {
+   margin-bottom: 0.8rem;
+   font-size: 0.7rem;
+}
+
+.product #product-title,
+.product-price .new-price {
+   font-size: 0.7rem;
+}
+
+.fa-star {
+   font-size: 0.8rem;
+}

@@ -1,0 +1,31 @@
+.wishlist-heading,
+.wishlist-info {
+   margin-top: 2rem;
+   text-align: center;
+}
+
+.wishlist-info {
+   font-size: 1.3rem;
+}
+
+.wrapper-wishlist {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+@media (min-width: 768px) {
+   .wrapper-wishlist {
+      flex-direction: row;
+      flex-wrap: wrap;
+   }
+}
+
+@media (min-width: 960px) {
+   .wishlist-sec {
+      margin: 2rem;
+      margin-top: 2rem;
+      padding-bottom: 4rem;
+   }
+}
