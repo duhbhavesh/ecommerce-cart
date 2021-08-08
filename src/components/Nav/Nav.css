@@ -1,0 +1,23 @@
+.form-inline {
+   width: 40%;
+}
+
+.sidebar-overlay {
+   display: none;
+}
+
+.navbar {
+   margin-top: 0;
+   padding-left: 2rem;
+   padding-right: 2rem;
+}
+
+.navbar-md {
+   position: fixed;
+   width: 100%;
+   z-index: 15;
+}
+
+.container-nav {
+   padding-bottom: 3rem;
+}
